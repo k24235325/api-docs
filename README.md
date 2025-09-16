@@ -1,2 +1,36 @@
-# api-docs
-Документация с API для мерчанта
+---
+description: Learn more about documenting APIs in GitBook.
+icon: terminal
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: true
+---
+
+# Api документация
+
+**REST API V1 для операций мерчанта с расширенной валидацией и фильтрацией платежных систем. Все запросы должны быть подписаны с использованием HMAC-SHA256. Более подробную информацию смотрите в разделе «Примеры интеграции».**
+
+**Аутентификация:**\
+Для аутентификации требуются три заголовка:
+
+* **X-API-Key:** Ваш API-ключ мерчанта.
+* **X-Signature:** Подпись HMAC-SHA256, сформированная от значения временной метки (timestamp) + тела запроса с использованием вашего секретного ключа. Если тело запроса отсутствует (например, в GET-запросе), необходимо подписать только временную метку.
+* **X-Timestamp:** Текущая Unix-временная метка (временная зона UTC).
+
+Инструкции по получению API-ключей доступны по ссылке: **Руководство по генерации ключей**.
+
+**Callback-уведомления V3:**\
+После завершения обработки заказа (успешного или по истечении времени его жизни) на указанный в вашем личном кабинете мерчанта `callback_url` будет отправлен POST-запрос с информацией о статусе.
+
+<a href="https://gitbookio.github.io/onboarding-template-images/gitbook-petstore.yaml" class="button primary" data-icon="arrow-up-right-from-square">View OpenAPI spec</a>
