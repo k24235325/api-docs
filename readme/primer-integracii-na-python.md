@@ -1,14 +1,14 @@
 # Пример интеграции на python
 
-### Код для создания нового платежного заказаБыстрая навигация
+### Быстрая навигация
 
-* Создание заказа (Python)
-* Сервер для обработки webhook (Python)
-* Создание заказа (альтернативная версия)
+* [Создание заказа ](primer-integracii-na-python.md#sozdanie-zakaza-python)
+* [Сервер для обработки webhook ](primer-integracii-na-python.md#server-dlya-obrabotki-webhook-python)
+* [Создание заказа (альтернативная версия)](primer-integracii-na-python.md#sozdanie-zakaza-alternativnaya-versiya)
 
 ***
 
-### Создание заказа (Python) <a href="#sozdanie-zakaza-python" id="sozdanie-zakaza-python"></a>
+### Создание заказа  <a href="#sozdanie-zakaza-python" id="sozdanie-zakaza-python"></a>
 
 ```python
 import os
@@ -73,11 +73,29 @@ if __name__ == "__main__":
     main()
 ```
 
-↑ К быстрой навигации
+↑[ К быстрой навигации](primer-integracii-na-python.md#bystraya-navigaciya)
 
-***
+### Что нужно заполнить:
 
-### Сервер для обработки webhook (Python) <a href="#server-dlya-obrabotki-webhook-python" id="server-dlya-obrabotki-webhook-python"></a>
+&#x20;**Авторизация:**
+
+* `apiKey` → ваш API-ключ из личного кабинета
+* `secret` → ваш секретный ключ
+
+**Данные заказа:**
+
+* `1000.4747448348385` → сумма в рублях
+* `"SBP"` → тип реквизита
+
+### Как использовать:
+
+1. Замените `apiKey` и `secret` на реальные ключи
+2. Укажите сумму и тип реквизита из списка выше
+3. Запустите скрипт
+
+
+
+### Сервер для обработки webhook  <a href="#server-dlya-obrabotki-webhook-python" id="server-dlya-obrabotki-webhook-python"></a>
 
 ```python
 import hmac
@@ -156,9 +174,20 @@ if __name__ == "__main__":
     run()
 ```
 
-↑ К быстрой навигации
+↑ [К быстрой навигации](primer-integracii-na-python.md#bystraya-navigaciya)
 
 ***
+
+### Авторизация:
+
+* `apiKey` → ваш API-ключ из личного кабинета
+* `apiSecret` → ваш секретный ключ
+
+### Как использовать:
+
+1. Замените `apiKey` и `apiSecret` на реальные ключи
+2. Запустите скрипт
+3. Сервер начнет принимать webhook-уведомления на `http://localhost:3000/webhook`
 
 ### Создание заказа (альтернативная версия) <a href="#sozdanie-zakaza-alternativnaya-versiya" id="sozdanie-zakaza-alternativnaya-versiya"></a>
 
@@ -225,83 +254,7 @@ if __name__ == "__main__":
     main()
 ```
 
-↑ К быстрой навигации
+[↑ К быстрой навигации](primer-integracii-na-python.md#bystraya-navigaciya)
 
-### ААААА
-
-## Замените пробелы на дефисы:
-
-### Быстрая навигация
-
-* Создание заказа
-
-### Создание заказаоиоьт <a href="#create-order" id="create-order"></a>
-
-
-
-### Быстрая навигация
-
-* Создание заказа (Python)
-* Webhook сервер (Python)
-* Альтернативная версия
-
-***
-
-### Создание заказа (Python) <a href="#python-create" id="python-create"></a>
-
-```python
-# код
-```
-
-↑ Back to top
-
-***
-
-### Webhook сервер (Python) <a href="#python-webhook" id="python-webhook"></a>
-
-```python
-# код
-```
-
-↑ Back to top\\
-
-
-
-
-
-### Быстрая навигация
-
-* Создание заказа (Python)
-* Сервер для обработки webhook (Python)
-* Создание заказа (альтернативная версия)
-
-***
-
-### Создание заказа (Python)
-
-```python
-# ваш код Python
-```
-
-↑ К навигации
-
-***
-
-### Сервер для обработки webhook (Python)
-
-```python
-# ваш код Python для webhook
-```
-
-↑ К навигации
-
-***
-
-### Создание заказа (альтернативная версия)
-
-```python
-# ваш альтернативный код Python
-```
-
-↑ К навигации
+###
 
