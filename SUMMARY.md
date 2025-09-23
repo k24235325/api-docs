@@ -2,8 +2,8 @@
 
 * [Api документация](README.md)
   * [Руководство по генерации ключей](readme/rukovodstvo-po-generacii-klyuchei.md)
-  * [Примеры интеграции на go](readme/primery-integracii-na-go.md)
   * [Пример интеграции на python](readme/primer-integracii-na-python.md)
+  * [Примеры интеграции на go](readme/primery-integracii-na-go.md)
 
 ## Reference
 
