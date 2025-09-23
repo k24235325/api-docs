@@ -1,22 +1,3 @@
----
-description: Learn more about documenting APIs in GitBook.
-icon: terminal
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: true
----
-
 # Api документация
 
 **REST API V1 для операций мерчанта с расширенной валидацией и фильтрацией платежных систем. Все запросы должны быть подписаны с использованием HMAC-SHA256. Более подробную информацию смотрите в разделе «Примеры интеграции».**
