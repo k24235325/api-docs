@@ -9,7 +9,7 @@
 1. Перейдите в **настройки личного кабинета**.
 2. Нажмите кнопку **«Создать новые ключи»**.
 
-<figure><img src=".gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
 
 > **⚠️ ВАЖНО: Безопасность ключей**
 >
@@ -18,7 +18,7 @@
 > * **Храните** `Secret API Key` в безопасном месте (например, в зашифрованном хранилище или менеджере секретов вашего сервера).
 > * Одновременно может быть активна **только одна пара ключей**. Создание новых ключей сделает предыдущие недействительными.
 
-<figure><img src=".gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Авторизация запросов
 
