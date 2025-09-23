@@ -2,6 +2,7 @@
 
 * [Api документация](README.md)
 * [Руководство по генерации ключей](rukovodstvo-po-generacii-klyuchei.md)
+* [Примеры интеграции](primery-integracii.md)
 
 ## Reference
 
