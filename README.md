@@ -1,4 +1,6 @@
-
+---
+icon: terminal
+---
 
 # Api документация
 
@@ -15,5 +17,35 @@
 
 **Callback-уведомления V3:**\
 После завершения обработки заказа (успешного или по истечении времени его жизни) на указанный в вашем личном кабинете мерчанта `callback_url` будет отправлен POST-запрос с информацией о статусе.
+
+```
+# Уведомления Callback V3
+{
+  "status": "timeout",
+  "amount_usdt": 0.983,
+  "amount_local": 100,
+  "currency": "RUB",
+  "merchant_commission": -0.098,
+  "merchant_order_id": "12345"
+}
+```
+
+### Поля запроса:
+
+| Поле                  | Тип    | Описание                                  |
+| --------------------- | ------ | ----------------------------------------- |
+| `uuid`                | string | Уникальный идентификатор заказа           |
+| `status`              | string | Статус заказа (`timeout` - истекло время) |
+| `amount_usdt`         | number | Сумма в USDT                              |
+| `amount_local`        | number | Сумма в локальной валюте                  |
+| `currency`            | string | Код валюты (например, "RUB")              |
+| `merchant_commission` | number | Комиссия мерчанта                         |
+| `merchant_order_id`   | string | Внешний идентификатор заказа              |
+
+### Примечание:
+
+Если вы в настоящее время используете предыдущие версии Callback и хотите перейти на новую версию, пожалуйста, свяжитесь с нашей службой поддержки.
+
+
 
 <a href="https://gitbookio.github.io/onboarding-template-images/gitbook-petstore.yaml" class="button primary" data-icon="arrow-up-right-from-square">View OpenAPI spec</a>

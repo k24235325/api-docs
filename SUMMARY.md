@@ -4,6 +4,7 @@
   * [Руководство по генерации ключей](readme/rukovodstvo-po-generacii-klyuchei.md)
   * [Пример интеграции на python](readme/primer-integracii-na-python.md)
   * [Примеры интеграции на go](readme/primery-integracii-na-go.md)
+* [API создания ордера](api-sozdaniya-ordera.md)
 
 ## Reference
 
