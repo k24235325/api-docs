@@ -2,8 +2,8 @@
 
 ### Быстрая навигация
 
-* [Создание заказа ](primery-integracii-na-go.md#sozdanie-zakaza-go)
-* [Сервер для обработки webhook ](primery-integracii-na-go.md#server-dlya-obrabotki-webhook-go)
+* [Создание заказа ](primery-integracii-na-go.md#sozdanie-zakaza)
+* [Сервер для обработки webhook ](primery-integracii-na-go.md#server-dlya-obrabotki-webhook)
 * [Создание заказа (альтернативная версия)](primery-integracii-na-go.md#sozdanie-zakaza-alternativnaya-versiya)
 
 ### Создание заказа&#x20;
@@ -242,7 +242,7 @@ func verifySignature(timestamp string, body []byte, signature string) bool {
 
 ***
 
-### Создание заказа (альтернативная версия Go)
+### Создание заказа (альтернативная версия)
 
 ```go
 package main
