@@ -5,10 +5,16 @@
   * [Пример интеграции на python](readme/primer-integracii-na-python.md)
   * [Примеры интеграции на go](readme/primery-integracii-na-go.md)
 * [Создание платежей через API](sozdanie-platezhei-cherez-api/README.md)
-  * [Создание платежного ордера](sozdanie-platezhei-cherez-api/sozdanie-platezhnogo-ordera.md)
-  * [Получение информации о заказе по callback UUID](sozdanie-platezhei-cherez-api/poluchenie-informacii-o-zakaze-po-callback-uuid.md)
-  * [Page 2](sozdanie-platezhei-cherez-api/page-2.md)
-  * [Page 3](sozdanie-platezhei-cherez-api/page-3.md)
+  * [POST запросы](sozdanie-platezhei-cherez-api/post-zaprosy/README.md)
+    * [Создание платежного ордера](sozdanie-platezhei-cherez-api/post-zaprosy/sozdanie-platezhnogo-ordera.md)
+    * [Загрузка чека для ордера](sozdanie-platezhei-cherez-api/post-zaprosy/zagruzka-cheka-dlya-ordera.md)
+  * [GET запросы](sozdanie-platezhei-cherez-api/get-zaprosy/README.md)
+    * [Получение информации о заказе по callback UUID](sozdanie-platezhei-cherez-api/get-zaprosy/poluchenie-informacii-o-zakaze-po-callback-uuid.md)
+    * [Получение ордеров по ID заказа мерчанта](sozdanie-platezhei-cherez-api/get-zaprosy/poluchenie-orderov-po-id-zakaza-merchanta.md)
+    * [Получение статистики по ордерам](sozdanie-platezhei-cherez-api/get-zaprosy/poluchenie-statistiki-po-orderam.md)
+    * [Получение ордера по ID](sozdanie-platezhei-cherez-api/get-zaprosy/poluchenie-ordera-po-id.md)
+    * [Отмена ордера](sozdanie-platezhei-cherez-api/get-zaprosy/otmena-ordera.md)
+    * [Подтверждение ордера клиентом](sozdanie-platezhei-cherez-api/get-zaprosy/podtverzhdenie-ordera-klientom.md)
 
 ## Reference
 
