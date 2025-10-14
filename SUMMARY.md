@@ -15,6 +15,14 @@
     * [Получение ордера по ID](sozdanie-platezhei-cherez-api/get-zaprosy/poluchenie-ordera-po-id.md)
     * [Отмена ордера](sozdanie-platezhei-cherez-api/get-zaprosy/otmena-ordera.md)
     * [Подтверждение ордера клиентом](sozdanie-platezhei-cherez-api/get-zaprosy/podtverzhdenie-ordera-klientom.md)
+* [Споры](spory/README.md)
+  * [POST запросы](spory/post-zaprosy/README.md)
+    * [Page 1](spory/post-zaprosy/page-1.md)
+    * [Page 2](spory/post-zaprosy/page-2.md)
+  * [GET запросы](spory/get-zaprosy/README.md)
+    * [Получение списка споров](spory/get-zaprosy/poluchenie-spiska-sporov.md)
+    * [Получение деталей спора по ID](spory/get-zaprosy/poluchenie-detalei-spora-po-id.md)
+    * [Получение деталей спора по ID заказа](spory/get-zaprosy/poluchenie-detalei-spora-po-id-zakaza.md)
 
 ## Reference
 
